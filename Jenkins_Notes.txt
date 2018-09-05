@@ -209,7 +209,13 @@ Git
                   When you select the Squash and merge option on a pull request on Github, the pull request's commits are 
 		   squashed into a single commit. Instead of seeing all of a contributor's individual commits from a topic
 		   branch, the commits are combined into one commit and merged into the default branch. 
+
+4) What is the purpose of Github Fork ??
 		   
+5) How to see all the forks for our github account ??
+
+6) 
+
 		   
 
 
