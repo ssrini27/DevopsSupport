@@ -43,21 +43,6 @@ Q. ASSUME YOU ARE THE JENKINS ADMIN AND YOU FORGETTED THE LOGIN PASSWORD THEN HO
 	cat /var/lib/jenkins/secrets/initialAdminPassword
 
 Q. HOW TO RESET THE JENKINS PASSWORD ??
-
-
-========================================================================================= 
-
-
-Google Review:
-
-	IT WAS REALLY UN-FORTUNATE FOR ME TO JOIN IN TECH MARSHAL, LOCATED BESIDES SATYAM THEATER, AMEERPET.
-
-	MANAGEMENT IS TOO RUDE AND CARE-LESS ABOUT STUDENTS CAREER. EVEN THE FACULTY IS NOT REGULAR TO CLASS'S
-
-	AND NOT HAVING ANY REAL TIME EXPERIENCE. I SIMPLY WASTED MY MONEY AND MY VALUABLE TIME.
-
-	WITH THIS TRAINING, NO ONE WILL GET JOB IN IT. I HUMBLY REQUEST YOU NOT TO WASTE YOUR MONEY FOR ANY TRAINING HERE.
-
 ========================================================================================= 
 
 Website: jenkinsguru.tk
@@ -215,7 +200,17 @@ Git
 	
 	     2) Take the Github Account User Id's and add the collaberators 
 	     
-	     3) By Fork : Give the public repository to the team members and ask to fork it.
+	     3) By Fork : Give the public repository to the team members and ask to fork it. ( They can add some content 
+	                   to the file raise a pull request )
+			   
+			   
+3) What is the purpose of Git Squash & Merge Option in GitHub ??
+       Ans:-
+                  When you select the Squash and merge option on a pull request on Github, the pull request's commits are 
+		   squashed into a single commit. Instead of seeing all of a contributor's individual commits from a topic
+		   branch, the commits are combined into one commit and merged into the default branch. 
+		   
+		   
 
 
  
