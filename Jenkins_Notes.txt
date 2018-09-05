@@ -105,41 +105,7 @@ Run a build to have Jenkins create a workspace.)
 
 
 
- 		
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Jenkins FAQ's
+ 		Jenkins FAQ's
 =============
 
 1)  What is Jenkins ??
@@ -239,6 +205,7 @@ Linux
 Git
 ---
 1) How to use Colleborator Concept ??
+2) How to share the Uploaded file to all the team members ??
 
 
 
