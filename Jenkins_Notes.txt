@@ -1,0 +1,241 @@
+HOW TO INSTALL JENKINS ??
+
+ANS: FIRST OF ALL WE NEED TO TAKE A SERVER ( IT MAY BE VIRTUAL MACHINE OR AWS INSTANCE) THEN WE NEED TO CHECK WHEATHER JAVA IS AVAILABLE OR NOT.
+BECAUSE, IN-ORDER TO INSTALL JENKINS WE NEED TO HAVE JAVA IN OUR SYSTEM. WHEN ONCE JAVA IS AVAILABLE, WE NEED TO GO TO OFFICIAL WEBSITE OF JENKINS i.e. JENKINS.IO AND DOWNLOAD REQUIRED VERSION. LET'S SAY WE CHOOSEN UBUNTU.  THEN WE NEED TO FOLLOW THE DOCUMENTATION AND INSTALL JENKINS.
+
+AS PER THE DOCUMENTATION, FIRST WE NEED TO UPDATE THE REPOSITORY. FOR THIS WE NEED TO USE THE COMMAND :  APT-GET UPDATE
+THEN WE NEED TO INSTALL JENKINS BY USING THE COMMAND :  APT-GET INSTALL JENKINS.
+
+			
+NEXT, OPEN THE JENKINS IN BROWSER BY TYPING THE PUBLIC IP ADDRESS OF THE INSTANCE FOLLOWED BY 8080 PORT NO. (MAKE SURE THAT, PORT 8080 IS ALREADY OPENED IN THE AWS INSTANCE).
+
+IF EVERYTHING IS FINE, THEN JENKINS WILL START LOADING. INITIALLY, IT WILL ASK TO ENTER THE PASSWORD WHICH IS ALREADY AVAILABLE IN THE PATH :
+	cat /var/lib/jenkins/secrets/initialAdminPassword
+THEN WE GET THE PASSWORD. COPY THIS PASSWORD AND ENTER IN THE JENKINS PAGE AND FOLLOW THE FURTHER STEPS LIKE CREATE A ADMIN ACCOUNT AND LAUNCH.
+WITH THIS, WE CAN SEE THE JENKINS HOME PAGE.
+
+
+Q. CREATE A JENKINS JOB WHICH WILL DISPLAY : HAI JENKINS. And display the hostname ??
+
+Q. CREATE A JENKINS JOB WHICH WILL CREATE A DIRECTORY AND 2 FILES ??
+       (Doubt: After creating directory, how to check in the terminal ??)
+
+Q. CREATE A JENKINS JOB WHICH CAN DOWNLOAD THE CODE FROM THE GIT ??
+	[Hint:
+		Git Repository Path: https://github.com/demoglot/html-samples-doctor.git
+	Check wheather Git is available in Jenkins or not ??]
+
+	(After downloading git using jenkins job, how to see those files from the terminal ??)
+
+Q. CREATE A JENKINS JOB WHICH CAN GET THE CODE FROM THE GIT AND BUILD ARTIFACT (WAR FILE) USING MAVEN ??
+
+========================================================================================= 
+
+Q. ASSUME YOU ARE THE JENKINS ADMIN AND YOU FORGETTED THE LOGIN PASSWORD THEN HOW TO RESOLVE ??
+
+	Ans: Always the default Jenkins username is 'admin' and the password is the one from initialAdminPassword that can be obtained from the below path. 
+
+	cat /var/lib/jenkins/secrets/initialAdminPassword
+
+Q. HOW TO RESET THE JENKINS PASSWORD ??
+
+
+========================================================================================= 
+
+
+Google Review:
+
+	IT WAS REALLY UN-FORTUNATE FOR ME TO JOIN IN TECH MARSHAL, LOCATED BESIDES SATYAM THEATER, AMEERPET.
+
+	MANAGEMENT IS TOO RUDE AND CARE-LESS ABOUT STUDENTS CAREER. EVEN THE FACULTY IS NOT REGULAR TO CLASS'S
+
+	AND NOT HAVING ANY REAL TIME EXPERIENCE. I SIMPLY WASTED MY MONEY AND MY VALUABLE TIME.
+
+	WITH THIS TRAINING, NO ONE WILL GET JOB IN IT. I HUMBLY REQUEST YOU NOT TO WASTE YOUR MONEY FOR ANY TRAINING HERE.
+
+========================================================================================= 
+
+Website: jenkinsguru.tk
+
+
+Raja Rao
+rajaraodevops@gmail.com
+a7799391225@1
+rajarao@18
+=====================================================================================================
+
+Jenkins REQUIREMENTS :
+---------------------
+ 
+(Assume Jenkins Server is already ready)
+
+1) Create a Jenkins job which will print "Hello Welcome to Jenkins..." ??
+
+	Ans :  Goto Jenkins Dashboard >> Create a Job / Project / New Item :
+
+	       After providing job name, choose the Project Type (Free Style Project)
+
+	       Then we will enter into Jenkins Configuration Page:
+
+			Here, Go to Build Section and Choose Execute Shell :
+
+				Give the command as :  Echo "Hello Welcome to Jenkins..."
+
+		
+		Apply & Save.
+  After creating jenkins job, system will create Workspace (Error: no workspace
+A project won't have any workspace until at least one build is performed.
+Run a build to have Jenkins create a workspace.)
+
+  Next, Build the Job (Building the job is nothing but we are executing our project)
+
+  After Build, we can see Build history where go to Console Output to see the process of the Job.
+
+  Note:  If there is any issue, then try to understand the bug from the console output and fix it.
+
+========================================================================================= 
+
+2) Create a Jenkins job :
+	a) which will create a Directory and Files Using Shell Script ??
+	b) Which will delete a Directory and Files Using Shell Script ??
+	c) Which will create and delete a Jenkins directory from Console Terminal ??
+
+========================================================================================
+3) 
+
+
+
+ 		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jenkins FAQ's
+=============
+
+1)  What is Jenkins ??
+2)  What are the various CI-CD Tools ??
+3)  Advantages of Jenkins ?? Why Jenkins ??
+4)  What is Continuous Integration ??
+5)  What is Continuous Deployment ??
+6)  Explain the Jenkins CI-CD Flow ??
+7)  What are the various Jenkins Projects ??
+         Ans: 1) Free Style Project
+	      2) Pipeline Project
+	      3) Multi-Configuration Project
+	      4) Folder
+              5) Github Configuration
+	      6) Multibranch Pipeline
+	
+8)  How to install jenkins in Windows ??
+9)  How to install jenkins in Linux (Redhat Family & Debian Family)
+10) How to create jenkins job ??
+11) What do you mean by Free Style Project ??
+	Ans: We will choose this project , if we want to combine the SCM with the Build System.
+		it will be used other than software build.
+
+12) What are the Jenkins Job Configuration Tabs ??
+	Ans :
+		General Tab , Source Code Management , Build Triggers , Build Environment , 
+		Build & Post-Build Actions.
+	
+13) What are the options for Jenkins Job ??
+	1) Changes 
+	2) Workspace
+	3) Build Now
+	4) Delete Project
+	5) Configure
+	6) Rename
+
+14) What is the purpose of Changes in Jenkins Job ??
+15) What is the purpose of Workspace in Jenkins Job ??
+16) How many ways we can see the Console Output of any Jenkins Job ??
+	Ans: 
+		1st Way : Go to Jenkins Dashboard and click on Build History.
+		
+		2nd Way :  Go to the required Jenkins Job & choose Console Output option 
+			   under Last Success / Last Failure Column 
+		Note : We can see Console Output Option under Last Failure Column only if
+			there is any failure of jenkin jobs.
+		
+
+17) what is the purpose of Views in Jenkins Dashboard & how to create them ?? Types of Views ??
+18) How to Use a regular expression to include jobs into the view ??
+19) How to create directory & files under jenkins workspace ?? [Hint : Use Execute Shell Commands]
+     Ans: 
+=======================
+Creating the Directory
+=======================
+#!/bin/bash 
+#Script to create a specific-directory on all subfolders in a parent-directory
+x=/var/lib/jenkins/workspace/job_5     # This path we can find from the job Console Output.
+cd $x/$hello6/
+mkdir hello6
+
+========================
+Deleting a Directory
+========================
+
+#!/bin/bash 
+#Script to create a specific-directory on all subfolders in a parent-directory
+srinu=/var/lib/jenkins/workspace/job_5
+cd $srinu/
+rm -r hello8/
+------------------------
+Note: Try for deleting sub-directories
+      Also apply various shell scripting commands for other requirements.
+------------------------
+
+20) What is the jenkins default workspace path ?? 
+21) Can we change the default workspace path for the job ?? [When we create a jenkins job (say job_1), we can see the path under workspace option. Example: /var/lib/jenkins/workspace/Job_1]
+
+22) Is it possible to delete workspace directory from Jenkins Dashboard ??
+23) Can you delete Build history for any particular job ?? [Is it is recommended]
+24) How to see the time and date of the build ??
+25) 
+
+
+
+
+========================================
+AWS
+---
+1) How to see which instances are running in various Aws Regions ??
+2) How to know how long Aws Instance is running??
+
+Linux
+-----
+1) How to assign password to the Console Terminal (if we try to open any duplicate session...) ??
+
+
+
+
