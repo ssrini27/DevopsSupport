@@ -219,3 +219,6 @@ Git
 
 
 u r practice is very good
+ aws services: ec2,vpc,s3,cloudformation
+ devops:ansible,docker,jenkins,ant,maven,git
+ python is also used for our practice
