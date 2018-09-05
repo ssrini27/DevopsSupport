@@ -1,7 +1,7 @@
 Jenkins (CI-CD Tool)
 ====================
 
-what is main perpose of jenkins
+
 
 
 HOW TO INSTALL JENKINS ??
@@ -220,6 +220,6 @@ Git
 
 7) how to use colloaorate in github   
 
-8) how to use the wedhooks??     ggggg
+8) how to use the wedhooks??    
 
  
