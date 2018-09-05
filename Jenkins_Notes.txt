@@ -214,7 +214,7 @@ Git
 		   
 5) How to see all the forks for our github account ??
 
-6) 
+6) what is the use of rebase in github
 
 		   
 
