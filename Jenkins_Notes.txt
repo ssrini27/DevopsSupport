@@ -206,6 +206,11 @@ Git
 ---
 1) How to use Colleborator Concept ??
 2) How to share the Uploaded file to all the team members ??
+	Ans: 1) Copy the Github Repository URL and ask the team members to clone it.
+	
+	     2) Take the Github Account User Id's and add the collaberators 
+	     
+	     3) By Fork : Give the public repository to the team members and ask to fork it.
 
 
 
