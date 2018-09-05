@@ -1,8 +1,5 @@
-Jenkins (CI-CD Tool)
-====================
-
-Q:what is main perpose of jenkins??
-
+                                                       Jenkins (CI-CD Tool)
+                                                       ====================
 
 HOW TO INSTALL JENKINS ??
 ========================
