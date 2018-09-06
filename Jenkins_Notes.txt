@@ -198,7 +198,10 @@ Linux
 
 Git
 ---
-1) How to use Colleborator Concept ??
+1) How to use Colleborator Concept ?? 
+
+Q) Suppose, if we add any colleborator and later if we create new files then those files will be shared across the colleborators/ users or not ??
+
 2) How to share the Uploaded file to all the team members ??
 	Ans: 1) Copy the Github Repository URL and ask the team members to clone it.
 	
@@ -220,8 +223,6 @@ Git
 
 6) what is the use of rebase in github
 
-7) how to use colloaorate in github   
-
-8) how to use the wedhooks??     ggggg
+7) how to use the wedhooks??      
 
  
