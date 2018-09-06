@@ -100,7 +100,7 @@ Run a build to have Jenkins create a workspace.)
 
 
  		Jenkins FAQ's
-=============
+                =============
 
 1)  What is Jenkins ??
 2)  What are the various CI-CD Tools ??
@@ -191,6 +191,7 @@ AWS
 ---
 1) How to see which instances are running in various Aws Regions ??
 2) How to know how long Aws Instance is running??
+3) Can we use the same key pair for different regions ??
 
 Linux
 -----
