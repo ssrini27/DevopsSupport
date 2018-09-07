@@ -230,7 +230,7 @@ Q) Suppose, if we add any colleborator and later if we create new files then tho
 	Ans:  yum install git -y    // For Installation
 	      yum remove git -y     // For Un-installing
 9) How to install a particular version (git) in Centos Machine ??
-       Ans: 
+       Ans:  Refer :  https://tecadmin.net/install-git-on-centos-fedora/
 
 10) How to see which Linux machine we are running inculding version ??
        Ans: cat /etc/os-release
