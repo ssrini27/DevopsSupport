@@ -227,5 +227,15 @@ Q) Suppose, if we add any colleborator and later if we create new files then tho
 7) how to use the webhooks??      
 
 8) How to install git in Centos Machine & how to un-install git ??
+	Ans:  yum install git -y    // For Installation
+	      yum remove git -y     // For Un-installing
+9) How to install a particular version (git) in Centos Machine ??
+       Ans: 
+
+10) How to see which Linux machine we are running inculding version ??
+       Ans: cat /etc/os-release
+11)        
+	      
+
 
  
