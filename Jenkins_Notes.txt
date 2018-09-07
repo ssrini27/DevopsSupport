@@ -234,7 +234,9 @@ Q) Suppose, if we add any colleborator and later if we create new files then tho
 
 10) How to see which Linux machine we are running inculding version ??
        Ans: cat /etc/os-release
-11)        
+11)  How to install Maven in Jenkins Server ??
+
+         Ans : refer https://tecadmin.net/install-apache-maven-on-centos/
 	      
 
 
