@@ -224,6 +224,8 @@ Q) Suppose, if we add any colleborator and later if we create new files then tho
 
 6) what is the use of rebase in github
 
-7) how to use the wedhooks??      
+7) how to use the webhooks??      
+
+8) How to install git in Centos Machine & how to un-install git ??
 
  
