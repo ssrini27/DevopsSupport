@@ -198,7 +198,10 @@ Linux
 1) How to assign password to the Console Terminal (if we try to open any duplicate session...) ??
 
 2) What is the command to find the list of all softwares installed in Linux Machine ??
-Ans: 
+Ans:   1)  rpm -qa
+       2)  rpm -qa | less
+       3)  yum list installed
+
 
 Git
 ---
