@@ -1,0 +1,19 @@
+
+Set JAVA_HOME IN CENTOS 7
+ Follow the listed steps to set JAVA_HOME in CentOS 7
+Log in to your server as root user.
+To check your installed java version :
+java -version
+Set JAVA_Home Environment variable on basis of java version. For jdk-1.8.0-
+openjdk .
+export JAVA_HOME=/usr/java/jdk.1.8.0_60
+Set JAVA_Home Environment variable on basis of java version.
+export PATH=$PATH:$JAVA_HOME
+
+It is the recommended add the following command to /etc/profile.d/.It is the
+recommended place to add customizations to the system profile.
+export JRE_HOME=/usr/java/jdk1.8.0_60/jre
+export PATH=$PATH:$JRE_HOME/bin
+export JAVA_HOME=/usr/java/jdk1.8.0_60
+export JAVA_PATH=$JAVA_HOME
+export PATH=$PATH:$JAVA_HOME/bin
